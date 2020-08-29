@@ -321,16 +321,16 @@ img{
 .certs__container{
   row-gap: 2rem;
 }
-.certificate{
+.certs__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .8rem;
   overflow: hidden;
 }
-.certificate img{
+.certs__img img{
   transition: 0.7s;
   cursor: pointer;
 }
-.certificate img:hover{
+.certs__img img:hover{
   transform: scale(1.4);
 }
 

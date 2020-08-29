@@ -51,7 +51,7 @@ sr.reveal('.skills__data',{interval: 190});
 sr.reveal('.skills__img',{delay: 600});
 
 /*SCROLL CERTIFICATIONS*/
-sr.reveal('.certificate',{interval: 190}); 
+sr.reveal('.certs__img',{interval: 190}); 
 
 
 
