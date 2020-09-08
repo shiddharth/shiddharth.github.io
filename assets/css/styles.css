@@ -232,7 +232,6 @@ img{
 }
 .button:hover{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  background-image: linear-gradient(to bottom right, mediumblue, dodgerblue);
 }
 
 /*===== ABOUT =====*/
@@ -320,7 +319,7 @@ img{
   row-gap: 2rem;
 }
 .certs__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  box-shadow: 0 4px 25px rgba(14,36,49,.14);
   border-radius: 1.1rem;
   overflow: hidden;
 }
