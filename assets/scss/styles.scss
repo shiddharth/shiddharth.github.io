@@ -74,7 +74,7 @@ a{
 img{
     max-width: 100%;
     height: auto;
-    display: block; // borra los espacios en blanco
+    display: block;
 }
 
 /*===== CSS CLASSES ===== */
@@ -328,6 +328,27 @@ img{
         border-radius: .5rem;
     }
 }
+
+/*===== PROJECTS =====*/
+.projects{
+    &__container{
+        row-gap: 2rem;
+    }
+    &__img{
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+        overflow: hidden;
+        
+        & img{
+            transition: 1s;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.4);
+            }
+        }
+    }
+}
+
 /*===== CERTIFICATIONS =====*/
 .certs{
     &__container{
@@ -335,7 +356,6 @@ img{
     }
     &__img{
         box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
-        border-radius: 1.1rem;
         overflow: hidden;
         
         & img{
@@ -445,6 +465,13 @@ img{
             grid-template-columns: repeat(2,1fr);
             align-items: center;
             text-align: initial;
+        }
+    }
+    .projects{
+        &__container{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2, 1fr);
+            column-gap: 2rem;
         }
     }
     .certs{

@@ -50,8 +50,12 @@ sr.reveal('.skills__text',{});
 sr.reveal('.skills__data',{interval: 190}); 
 sr.reveal('.skills__img',{delay: 600});
 
+/*SCROLL: PROJECTS*/
+sr.reveal('.projects__img',{interval: 190}); 
+
 /*SCROLL: CERTIFICATIONS*/
 sr.reveal('.certs__img',{interval: 190}); 
+
 
 
 

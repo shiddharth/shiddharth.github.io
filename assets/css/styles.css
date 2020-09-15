@@ -314,13 +314,28 @@ img{
   border-radius: .5rem;
 }
 
+/*===== PROJECTS =====*/
+.projects__container{
+  row-gap: 1.2rem;
+}
+.projects__img{
+  box-shadow: 0 4px 25px rgba(14,36,49,.14);
+  overflow: hidden;
+}
+.projects__img img{
+  transition: 0.7s;
+  cursor: pointer;
+}
+.projects__img img:hover{
+  transform: scale(1.4);
+}
+
 /*===== CERTIFICATIONS =====*/
 .certs__container{
   row-gap: 2rem;
 }
 .certs__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.14);
-  border-radius: 1.1rem;
   overflow: hidden;
 }
 .certs__img img{
@@ -415,6 +430,11 @@ img{
   }
   .about__img img{
     width: 300px;
+  }
+  .projects__container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 2rem;
   }
   .certs__container{
     grid-template-columns: repeat(3, 1fr);
