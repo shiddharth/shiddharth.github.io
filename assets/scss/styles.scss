@@ -339,11 +339,11 @@ img{
         overflow: hidden;
         
         & img{
-            transition: 1s;
+            transition: 0.3s;
             cursor: pointer;
 
             &:hover{
-                transform: scale(1.4);
+                transform: scale(1.2);
             }
         }
     }
@@ -359,7 +359,7 @@ img{
         overflow: hidden;
         
         & img{
-            transition: 1s;
+            transition: 0.7s;
             cursor: pointer;
 
             &:hover{

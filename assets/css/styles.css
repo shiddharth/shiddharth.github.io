@@ -323,11 +323,11 @@ img{
   overflow: hidden;
 }
 .projects__img img{
-  transition: 0.7s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .projects__img img:hover{
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 /*===== CERTIFICATIONS =====*/
