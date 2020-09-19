@@ -11,7 +11,6 @@
 :root{
   --first-color: dodgerblue;
   --second-color: #0E2431;
-  --completion-color: limegreen;
 }
 
 /*===== FONT SETTINGS =====*/
@@ -276,11 +275,6 @@ img{
   font-size: 2rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
-}
-.skills__icon__complete{
-  font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--completion-color);
 }
 .skills__names{
   display: flex;
