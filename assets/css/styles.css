@@ -320,6 +320,7 @@ img{
 }
 .projects__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.14);
+  border-radius: .5rem;
   overflow: hidden;
 }
 .projects__img img{
@@ -336,6 +337,7 @@ img{
 }
 .certs__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.14);
+  border-radius: .5rem;
   overflow: hidden;
 }
 .certs__img img{
