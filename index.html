@@ -12,6 +12,12 @@
     </head>
 
     <body>
+        <!--===== CSS Spinner / Preloader =====-->
+        <div class="spinner-wrapper">
+            <div class="spinner"></div>
+        </div>
+
+        <!--===== Main User Interface =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
@@ -216,5 +222,16 @@
         <!--===== SCRIPTS =====-->
         <script src="assets/js/scrollreveal.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+            //Preloader
+            preloaderFadeOutTime = 500;
+            function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+            });
+        </script>
     </body>
 </html>
