@@ -9,7 +9,7 @@
 
 /*===== COLORS =====*/
 :root{
-  --first-color: dodgerblue;
+  --first-color: rgb(42, 135, 228);
   --second-color: #0E2431;
 }
 
@@ -33,7 +33,7 @@
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
-  --mb-4: 2rem;
+  --mb-4: 1.8rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 }
