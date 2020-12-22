@@ -55,9 +55,3 @@ sr.reveal('.projects__img',{interval: 190});
 
 /*SCROLL: CERTIFICATIONS*/
 sr.reveal('.certs__img',{interval: 190}); 
-
-
-
-
-
-
