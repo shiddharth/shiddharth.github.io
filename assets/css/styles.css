@@ -290,7 +290,7 @@ img{
   z-index: var(--z-back);
 }
 .skills__python{
-  width: 98%;
+  width: 100%;
 }
 .skills__web{
   width: 88%;
