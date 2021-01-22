@@ -296,7 +296,7 @@ img{
   width: 88%;
 }
 .skills__js{
-  width: 65%;
+  width: 79%;
 }
 .skills__video{
   width: 72%;
@@ -332,11 +332,11 @@ img{
   overflow: hidden;
 }
 .certs__img img{
-  transition: 0.7s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .certs__img img:hover{
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 /*===== FOOTER =====*/
