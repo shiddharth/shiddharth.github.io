@@ -301,6 +301,9 @@ img{
 .skills__sql{
   width: 65%;
 }
+.skills__img{
+  border-radius: .5rem;
+}
 
 /*===== PROJECTS =====*/
 .projects__container{
