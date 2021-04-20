@@ -9,8 +9,8 @@
 
 /*===== COLORS =====*/
 :root{
-  --first-color: rgb(42, 135, 228);
-  --second-color: #0E2431;
+  --first-color: #859398;
+  --second-color: #283048;
 }
 
 /*===== FONT SETTINGS =====*/
@@ -223,11 +223,10 @@ img{
 /*===== BUTTONS =====*/
 .button{
   display: inline-block;
-  background-image: linear-gradient(to bottom right, royalblue, deepskyblue);
+  background-image: linear-gradient(to bottom right, var(--first-color), var(--second-color));
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: .5rem;
 }
 .button:hover{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -246,7 +245,6 @@ img{
 }
 .about__img img{
   width: 200px;
-  border-radius: .5rem;
 }
 
 /*===== SKILLS =====*/
@@ -268,7 +266,6 @@ img{
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
-  border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .skills__icon{
@@ -286,7 +283,6 @@ img{
   bottom: 0;
   background-color: var(--first-color);
   height: .25rem;
-  border-radius: .5rem;
   z-index: var(--z-back);
 }
 .skills__python{
@@ -304,9 +300,6 @@ img{
 .skills__java{
   width: 52%
 }
-.skills__img{
-  border-radius: .5rem;
-}
 
 /*===== PROJECTS =====*/
 .projects__container{
@@ -314,15 +307,14 @@ img{
 }
 .projects__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.14);
-  border-radius: .5rem;
-  overflow: hidden;
+  overflow: visible;
 }
 .projects__img img{
   transition: 0.3s;
   cursor: pointer;
 }
 .projects__img img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*===== CERTIFICATIONS =====*/
@@ -331,15 +323,14 @@ img{
 }
 .certs__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.14);
-  border-radius: .5rem;
-  overflow: hidden;
+  overflow: visible;
 }
 .certs__img img{
   transition: 0.3s;
   cursor: pointer;
 }
 .certs__img img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*===== FOOTER =====*/
